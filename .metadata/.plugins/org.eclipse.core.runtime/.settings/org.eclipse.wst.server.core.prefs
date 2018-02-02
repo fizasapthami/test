@@ -1,0 +1,3 @@
+#Fri Feb 02 02:13:43 EST 2018
+runtimes=<?xml version\="1.0" encoding\="UTF-8"?><runtimes>\r\n  <runtime id\="AJAX Test Server Runtime" id-set\="true" name\="AJAX Test Server Runtime" runtime-type-id\="com.ibm.etools.ajax.server.runtime" timestamp\="0"/>\r\n</runtimes>
+eclipse.preferences.version=1

@@ -1,0 +1,86 @@
+!SESSION 2018-02-02 02:13:02.635 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=JRE 1.6.0 IBM J9 2.4 Windows 7 amd64-64 jvmwa6460sr9-20110726_87724 (JIT enabled, AOT enabled)
+J9VM - 20110726_087724
+JIT  - r9_20101028_17488ifx17
+GC   - 20101027_AA_CMPRSS
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product com.ibm.rational.rsa.product.v80.ide
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product com.ibm.rational.rsa.product.v80.ide
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2018-02-02 02:13:21.215
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY org.eclipse.ui 4 4 2018-02-02 02:13:26.612
+!MESSAGE Unable to find Action Set: com.ibm.xtools.pluglets.ui.actionSet
+
+!ENTRY com.ibm.ccl.help.preferenceharvester 4 0 2018-02-02 02:13:42.426
+!MESSAGE Exception handling workspace change
+!STACK 0
+java.io.IOException: The system cannot find the path specified.
+	at java.io.File.createNewFile(Unknown Source)
+	at com.ibm.ccl.help.preferenceharvester.RemoteHelpUtility.handleWorkspaceChange(Unknown Source)
+	at com.ibm.ccl.help.preferenceharvester.Activator.initialize(Unknown Source)
+	at com.ibm.ccl.help.preferenceharvester.Activator.start(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.startActivator(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.start(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(Unknown Source)
+	at org.eclipse.osgi.framework.util.SecureAction.start(Unknown Source)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(Unknown Source)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(Unknown Source)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(Unknown Source)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(Unknown Source)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(Unknown Source)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(Unknown Source)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(Unknown Source)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.internal.loader.BundleLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.loadClass(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.loadClass(Unknown Source)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(Unknown Source)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(Unknown Source)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(Unknown Source)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(Unknown Source)
+	at org.eclipse.ui.internal.WorkbenchPlugin$1.run(Unknown Source)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(Unknown Source)
+	at org.eclipse.ui.internal.WorkbenchPlugin.createExtension(Unknown Source)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.getExecutableExtension(Unknown Source)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(Unknown Source)
+	at org.eclipse.core.runtime.SafeRunner.run(Unknown Source)
+	at org.eclipse.ui.internal.Workbench$59.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Unknown Source)
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2018-02-02 02:13:43.401
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2018-02-02 04:06:14.873
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2018-02-02 04:06:15.221
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.etools.common.migration 1 0 2018-02-02 04:06:16.931
+!MESSAGE Auto Build job is currently running
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2018-02-02 04:06:39.880
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.etools.common.migration 1 0 2018-02-02 04:08:03.514
+!MESSAGE Auto Build job is currently running
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2018-02-02 04:11:12.619
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2018-02-02 04:11:12.756
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2018-02-02 04:11:12.970
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2018-02-02 04:11:18.059
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
